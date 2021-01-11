@@ -2,4 +2,5 @@
 <br>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;answer:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;1. These two statements of Entry.S initializes the kernel's stack
+&nbsp;&nbsp;&nbsp;&nbsp;1. These two statements of Entry.S initializes the kernel's stack<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    movl    $0x0,%ebp            # nuke frame pointer
