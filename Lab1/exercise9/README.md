@@ -3,6 +3,7 @@
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;answer:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;1. These two statements of Entry.S initializes the kernel's stack
+
 ``` 
     movl    $0x0,%ebp            # nuke frame pointer
 　　movl    $(bootstacktop),%esp
